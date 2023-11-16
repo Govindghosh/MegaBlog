@@ -1,10 +1,12 @@
 import React from 'react'
 import container from '../container/container'
-import logo from '../logo'
 import LogoutBtn from './LogoutBtn'
 import { Link, useNavigate } from 'react-router-dom'
 import { useSelector } from 'react-redux'
-import authService from '../../appwrite/auth'
+import authService from '../../appwrite/auth';
+import Logo from '../Logo'
+
+
 
 
 function Header() {
@@ -21,22 +23,22 @@ function Header() {
     {
       name: "Login",
       slug: "/login",
-      active: !authStatus,
+      active: !auth,
   },
   {
       name: "Signup",
       slug: "/signup",
-      active: !authStatus,
+      active: !auth,
   },
   {
       name: "All Posts",
       slug: "/all-posts",
-      active: authStatus,
+      active: auth,
   },
   {
       name: "Add Post",
       slug: "/add-post",
-      active: authStatus,
+      active: auth,
   },
   ]
   return (

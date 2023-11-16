@@ -2,7 +2,7 @@ import Select from "./Select";  //done
 import Header from "./Header/Header";  //done app.jsx
 import Footer from "./Footer/Footer";   //done app.jsx
 import Container from "./container/container";
-import Logo from "./logo";
+import Logo from "./Logo";
 import LogoutBtn from "./Header/LogoutBtn";
 import RTE from "./RTE";
 import Signup from "./SignUp"; //done     
