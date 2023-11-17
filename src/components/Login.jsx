@@ -82,7 +82,7 @@ function Login() {
                 />
                 <Button
                 type="submit"
-                className="w-full"
+                className="w-full bg-sky-500/100"
                 >Sign in</Button>
             </div>
         </form>

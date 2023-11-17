@@ -1,10 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
 import authService from '../appwrite/auth'
 import { Link, useNavigate } from 'react-router-dom'
-//import {login as authLogin} from '../store/authSlice'
+import { login } from '../store/authSlice'
 import { Logo, Input, Button } from './index'
 import { useDispatch } from 'react-redux'
 import { useForm } from 'react-hook-form'
+
 
 
 function SignUp () {
@@ -88,7 +89,7 @@ function SignUp () {
                                 test(value) || "Email address must be a valid address"
                             }})}
                         />
-                        <Button type="submit" className="w-full">
+                        <Button type="submit" className="w-full bg-sky-500/100">
                             Create Account
                         </Button>
                     </div>
