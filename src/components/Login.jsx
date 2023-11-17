@@ -92,5 +92,3 @@ function Login() {
 }
 
 export default Login
-
-Logo
