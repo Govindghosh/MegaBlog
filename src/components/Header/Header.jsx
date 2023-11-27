@@ -41,9 +41,9 @@ function Header() {
 
 
   return (
-    <header className='py-2 shadow bg-gradient-to-r from-pink-500 to-purple-500'>
+    <header className='py-2 shadow bg-gradient-to-r from-white to-purple-300'>
       <Container>
-        <nav className='flex items-center justify-between from-pink-500 to-purple-500' >
+        <nav className='flex items-center justify-between' >
           <div className='mr-4'>
             <Link to='/'>
               <Logo width='70px'   />

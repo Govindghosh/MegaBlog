@@ -3,7 +3,8 @@ import React from 'react'
 function Logo({width = '100px'}) {
   return (
     <div>
-      Logo
+      <img src="../L" alt="Logo" style={{ width: '100%' }} />
+
     </div>
   )
 }
